@@ -44,3 +44,8 @@ info:
 logging:
   level:
     com.example.monitoring.api: debug
+
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
